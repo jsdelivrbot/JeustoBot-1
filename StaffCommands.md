@@ -1,4 +1,4 @@
-Commands:
+Commands for staff members:
 =========
 
 X specifies a number  
