@@ -19,8 +19,8 @@ User
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
-|~~!join~~ | | ~~join the roulette if it's up~~ |
-|~~!leave~~ | | ~~leave the roulette if you joined~~ |
+|!join | | join the roulette if it's up |
+|!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!ping | | pong! |
 |!rules | | links to the rules (if set in the settings) |
