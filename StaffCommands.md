@@ -39,7 +39,7 @@ Bouncer+
 |!lockdown | | lock down the room: only staff can chat |
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
 |!remove | @user | remove user from the waitlist |
-|~~!roulette~~ | | ~~start a roulette~~ |
+|!roulette | | start a roulette |
 |!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
 |!welcome | | toggle the welcome message on user join |
@@ -54,9 +54,7 @@ Bouncer
 |!afktime | @user | shows how long user has been afk |
 |!autodisable | | toggle the autodisable |
 |!ban | @user | bans user for 1 day |
-|!blacklist / !bl | blacklistname | add the song to the specified blacklist |
 |!commanddeletion | | toggles if bot commands gets deleted |
-|!blinfo | | get information required to blacklist a song |
 |!cycleguard | | toggles the cycleguard |
 |!dclookup / !dc | (@user) | do dclookup for user |
 |!english | @user | ask user to speak english (asked in the language they set plug to) |
@@ -77,7 +75,6 @@ Bouncer
 |!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
 |!status | | display the bot's status and some settings |
 |!timeguard | | toggle the timeguard |
-|!togglebl | | toggle the blacklist |
 |!togglemotd | | toggle the motd |
 |!togglevoteskip | | toggle the voteskip |
 |!unban | @user | unban user |
