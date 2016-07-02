@@ -1,2 +1,2 @@
 # JeustoBot
-Nothing special there :]
+All about the plug.dj bot!
