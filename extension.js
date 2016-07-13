@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Jeusto";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "JeustoBot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -56,27 +56,27 @@
       startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
-      smartSkip: true,
+      smartSkip: false,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 60,
       afkRemoval: true,
-      maximumDc: 60,
+      maximumDc: 10,
       bouncerPlus: true,
-      blacklistEnabled: true,
+      blacklistEnabled: false,
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
-      cycleGuard: true,
-      maximumCycletime: 10,
+      cycleGuard: false,
+      maximumCycletime: 20,
       voteSkip: false,
       voteSkipLimit: 10,
       historySkip: false,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 6,
       autodisable: true,
-      commandCooldown: 30,
+      commandCooldown: 5,
       usercommandsEnabled: true,
-      skipPosition: 3,
+      skipPosition: 2,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
@@ -86,20 +86,20 @@
       ["nsfw", "The song you contained was NSFW (image or sound). "],
       ["unavailable", "The song you played was not available for some users. "]
       ],
-      afkpositionCheck: 15,
-      afkRankCheck: "ambassador",
+      afkpositionCheck: 20,
+      afkRankCheck: "bouncer",
       motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motdInterval: 35,
+      motd: "Don't forget to share this community with your friends on social networks. The more we are, the more we have fun !",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
-      opLink: null,
-      rulesLink: null,
+      opLink: "https://github.com/Jeusto/JeustoBot/blob/master/OverPlayedSongs.md",
+      rulesLink: "https://github.com/Jeusto/JeustoBot/blob/master/CommunityRules.md",
       themeLink: null,
       fbLink: null,
-      youtubeLink: null,
-      website: null,
+      twitterLink: "........",
+      website: "........",
       intervalMessages: [],
       messageInterval: 5,
       songstats: true,
