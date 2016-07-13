@@ -59,7 +59,7 @@
       smartSkip: false,
       cmdDeletion: true,
       maximumAfk: 60,
-      afkRemoval: true,
+      afkRemoval: true, 
       maximumDc: 10,
       bouncerPlus: true,
       blacklistEnabled: false,
