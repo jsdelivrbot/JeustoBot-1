@@ -17,7 +17,7 @@ Booleans are either 'true' or 'false', without the '.
 - "lockdownEnabled": turn lockdown on or off, lockdown means that only staff can chat, leave it false                
 - "lockGuard": turn the lockguard on or off, lockguard makes sure the waitlist isn't locked longer than the maximum allowed time, type: a boolean: true/false
 - "maximumLocktime": maximum time the waitlist can be locked if lockguard is enabled, type: a number                
-- "cycleGuard": turn the cycleguard on or off, cycleguard makes sure DJ cycle isn't on longer than the allowed amount of minutes, type: boolean
+- "cycleGuard": turn the cycleguard on or off, cycleguard makes sure DJ cycle isn't on longer than the allowed amount of minutes, type: boolean 
 - "maximumCycletime": maximum time DJ cycle can be enabled if cyleguard is enabled, type: a number                
 - "timeGuard": turn the timeguard on or off, timeguard makes sure songs are not longer than the specified limit, if they are longer they are skipped immediately, type: boolean
 - "maximumSongLength": maximum length of a track if timeguard is enabled, type: a number
