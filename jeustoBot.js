@@ -48,15 +48,15 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "JeustoBot",
       language: "english",
-      chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+      chatLink: "https://rawgit.com/Jeusto/JeustoBot/master/en.json",
+      scriptLink: "https://rawgit.com/Jeusto/JeustoBot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
-      autoskip: false,
-      smartSkip: false,
+      autoskip: true,
+      smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 60,
       afkRemoval: true, 
