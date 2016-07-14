@@ -3600,7 +3600,7 @@
             },
 
             websiteCommand: {
-                command: 'website',
+                command: 'twitter',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
