@@ -25,3 +25,9 @@ Do not ask :
 - for skips
 - to be promoted
 - for gifts
+
+Be respctful towards all members of the community
+
+Do not spam, troll or post NSFW images in the chat
+
+
