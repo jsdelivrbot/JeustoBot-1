@@ -88,14 +88,14 @@
       ],
       afkpositionCheck: 20,
       afkRankCheck: "bouncer",
-      motdEnabled: false,
+      motdEnabled: true,
       motdInterval: 35,
       motd: "Don't forget to share this community with your friends on social networks. The more we are, the more we have fun !",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
-      opLink: "https://github.com/Jeusto/JeustoBot/blob/master/OverPlayedSongs.md",
-      rulesLink: "https://github.com/Jeusto/JeustoBot/blob/master/CommunityRules.md",
+      opLink: "https://git.io/vKBj2",
+      rulesLink: "https://git.io/vKBjr",
       themeLink: null,
       fbLink: null,
       twitterLink: "........",
@@ -112,6 +112,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Jeusto/JeustoBot/master/basicBot.js", extend);
 
 }).call(this);
