@@ -28,7 +28,7 @@ Do not ask :
 
 Be respectful towards all members of the community
 
-Do not spam, troll or post NSFW images in the chat
+Do not spam or post NSFW images in the chat
 
 
 Moderation Board / Dj
@@ -40,7 +40,7 @@ These are the first degree of punishments you can get, if repeated, bans will be
 |Playing a mix | 2 warnings then 1 hour ban | 
 |Using autojoin or antiafk too much | 3 warnings then 1 hour ban |
 |Playing NSFW content | 1 warning then 2 hour ban | 
-|Playing a troll song | 3 warnings then 2 hour ban |
+|Playing a troll song | 2 warnings then 2 hour ban |
 |Playing an op song | 3 warning then 2 hour ban | 
 
 
@@ -48,13 +48,10 @@ Moderation Board / Chat
 ----
 |Trouble | Punishment |
 |:------:|:---------:|
-|Playing a mix | 2 warnings then 1 hour ban | 
-|Using autojoin or antiafk too much | 3 warnings then 1 hour ban |
-|Playing NSFW content | 1 warning then 2 hour ban | 
-|Playing a troll song | 3 warnings then 2 hour ban |
-|Playing an op song | 3 warning then 2 hour ban | 
-
-
+|Asking for skips, promotion or | Warning and 1 hour ban if repeated several times  | 
+|Spamming | Warning and 2 hour ban if repeated several times |
+|Posting NSFW content| Warning then 3 hour ban | 
+|Being rude and insulting | 2 warnings then 2 hour ban |
 
 
 
