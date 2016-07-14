@@ -34,6 +34,7 @@ Do not spam, troll or post NSFW images in the chat
 Moderation Board / Dj
 ----
 These are the first degree of punishments you can get, if repeated, bans will be more severe!
+
 |Trouble | Punishment |
 |:------:|:---------:|
 |Playing a mix | 2 warnings then 1 hour ban | 
