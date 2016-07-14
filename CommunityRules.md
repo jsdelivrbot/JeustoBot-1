@@ -31,9 +31,30 @@ Be respectful towards all members of the community
 Do not spam, troll or post NSFW images in the chat
 
 
-Moderation Board
+Moderation Board / Dj
 ----
-|Command | Arguments 
+These are the first degree of punishments you can get, if repeated, bans will be more severe!
+|Trouble | Punishment 
 |:------:|:---------:
-|!8ball | (message) | 
-|!autowoot | links to PlugCubed, the advised script/plugin to use for autowooting |
+|Playing a mix | 2 warnings then 1 hour ban | 
+|Using autojoin or antiafk too much | 3 warnings then 1 hour ban |
+|Playing NSFW content | 1 warning then 2 hour ban | 
+|Playing a troll song | 3 warnings then 2 hour ban |
+|Playing an op song | 3 warning then 2 hour ban | 
+
+
+Moderation Board / Chat
+----
+|Trouble | Punishment 
+|:------:|:---------:
+|Playing a mix | 2 warnings then 1 hour ban | 
+|Using autojoin or antiafk too much | 3 warnings then 1 hour ban |
+|Playing NSFW content | 1 warning then 2 hour ban | 
+|Playing a troll song | 3 warnings then 2 hour ban |
+|Playing an op song | 3 warning then 2 hour ban | 
+
+
+
+
+
+If you feel you have been wrongly banned by one of our staff, you can send us a message on Twitter: https://twitter.com/JeustoBot
