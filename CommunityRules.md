@@ -6,15 +6,15 @@ These are all the rules and informations you need to know about the ElectroWaves
 
 DJ Rules
 ----
-Only Electronic music in normal time, they may be some events that allow other genres
+Only Electronic music are allowed in normal time
 
-Song length limit: 6 minutes, auto skip for anything longer
+Song length limit is 6 minutes, the song will be skipped if it's longer
 
 Mixes are not allowed (mashups and remixes are not mixes!)
 
 No AutoJoin or Anti-Afk
 
-No NSFW content allowed (nudity, gore..)
+No NSFW content or troll songs allowed (nudity, gore...)
 
 Avoid overplayed songs (list: https://git.io/vKBj2)
 
@@ -26,8 +26,14 @@ Do not ask :
 - to be promoted
 - for gifts
 
-Be respctful towards all members of the community
+Be respectful towards all members of the community
 
 Do not spam, troll or post NSFW images in the chat
 
 
+Moderation Board
+----
+|Command | Arguments 
+|:------:|:---------:
+|!8ball | (message) | 
+|!autowoot | links to PlugCubed, the advised script/plugin to use for autowooting |
