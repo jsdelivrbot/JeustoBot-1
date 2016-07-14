@@ -6,5 +6,10 @@ These are all the rules and informations you need to know about the ElectroWaves
 
 DJ Rules
 ----
-1) T
-2) 56
+
+Song length limit: 6 minutes
+
+No AutoJoin or Anti-Afk
+
+No NSFW content allowed
+
