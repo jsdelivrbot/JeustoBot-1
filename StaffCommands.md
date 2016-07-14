@@ -7,7 +7,7 @@ Arguments between ( ) are optional
 
 User
 ----
-
+ 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
