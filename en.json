@@ -205,6 +205,8 @@
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
     "thorNotClose": "\/me @%%NAME%%, you're not worthy of getting close to the hammer!",
     "thorcd": "\/me @%%NAME%% you can try to lift the hammer in %%TIME%% minutes.",
+    "help": "\/me @%%NAME%% This should get you started on plug.dj http://i.imgur.com/N1vgPKm.jpg?1",
+    "theme": "\/me @%%NAME%% We only allow EDM (Electronic music). What is EDM? Info: http://bit.ly/1HQo4wv",
     "thorWorthy": "\/me @%%NAME%% you're worthy of the hammer :hammer:, congratulations!",
     "thorNotWorthy": "\/me @%%NAME%% you're not worthy of the hammer."
 }
