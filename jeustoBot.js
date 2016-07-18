@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "JeustoBot",
       language: "english",
-      chatLink: "https://rawgit.com/Jeusto/JeustoBot/master/en.json",
-      scriptLink: "https://rawgit.com/Jeusto/JeustoBot/master/basicBot.js",
+      chatLink: "https://raw.githubusercontent.com/Jeusto/JeustoBot/master/en.json",
+      scriptLink: "https://raw.githubusercontent.com/Jeusto/JeustoBot/master/jeustoBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
