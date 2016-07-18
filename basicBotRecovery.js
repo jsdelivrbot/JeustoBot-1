@@ -3706,8 +3706,8 @@
         }
     },
     
-            bot.commands.thCommand = {
-                command: 'th', 
+            bot.commands.helpCommand = {
+                command: 'help', 
                 rank: 'user', 
                 type: 'exact', 
                 functionality: function (chat, cmd) {
