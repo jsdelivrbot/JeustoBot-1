@@ -98,7 +98,7 @@
       rulesLink: "https://git.io/vKBjr",
       themeLink: null,
       fbLink: null,
-      website: "https://twitter.com/JeustoBot",
+      twitter: "https://twitter.com/JeustoBot",
       intervalMessages: [],
       messageInterval: 5,
       songstats: true,
