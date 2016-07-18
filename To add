@@ -3,6 +3,7 @@ theme
 rcs 
 support
 subscribe
+twitter
 
 
             bot.commands.helpCommand: {
