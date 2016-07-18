@@ -3704,36 +3704,6 @@
                 }
             }
         }
-    },
-    
-            bot.commands.helpCommand = {
-                command: 'help', 
-                rank: 'user', 
-                type: 'exact', 
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                            API.sendChat("This should get you started on plug.dj http://i.imgur.com/N1vgPKm.jpg?1");
-                    }
-                }
-            }
-        }
-    },
-    
-            bot.commands.themeCommand = {
-                command: 'theme', 
-                rank: 'user', 
-                type: 'exact', 
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                            API.sendChat("We only allow EDM (Electronic music). What is EDM? Info: http://bit.ly/1HQo4wv");
-                    }
-                }
-            }
-        }
     };
 
     loadChat(basicBot.startup);
