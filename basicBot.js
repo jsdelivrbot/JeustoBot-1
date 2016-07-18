@@ -3704,35 +3704,6 @@
                 }
             }
         }
-    },
-bot.commands.helpCommand: {
-                command: 'help', 
-                rank: 'user', 
-                type: 'exact', 
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        return API.sendChat(subChat(basicBot.chat.help, {name: name}));
-                    }
-                }
-            }
-        }
-    },
-    
-            bot.commands.themeCommand: {
-                command: 'theme', 
-                rank: 'user', 
-                type: 'exact', 
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        return API.sendChat(subChat(basicBot.chat.theme, {name: name}));
-                    }
-                }
-            }
-        }
     };
 
     loadChat(basicBot.startup);
