@@ -47,14 +47,14 @@ These are the first degree of punishments you can get, if repeated, bans will be
 |Playing NSFW content | 1 warning then 2 hour ban | 
 |Playing a troll song | 2 warnings then 2 hour ban |
 |Playing an op song | 3 warning then 2 hour ban | 
-|Playing a not allowed song | 2 warning then 2 hour ban | 
+|Playing a not allowed style | 2 warning then 2 hour ban | 
 
 
 Moderation Board / Chat
 ----
 |Trouble | Punishment |
 |:------:|:---------:|
-|Asking for skips, promotion or | Warning and 1 hour ban if repeated several times  | 
+|Asking for skips, promotion or gifts | Warning and 1 hour ban if repeated several times  | 
 |Spamming | Warning and 2 hour ban if repeated several times |
 |Posting NSFW content| Warning then 3 hour ban | 
 |Being rude and insulting | 2 warnings then 2 hour ban |
