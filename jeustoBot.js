@@ -111,6 +111,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Jeusto/JeustoBot/master/basicBot.js", extend);
+    $.getScript("https://raw.githubusercontent.com/Jeusto/JeustoBot/master/basicBot.js", extend);
 
 }).call(this); 
