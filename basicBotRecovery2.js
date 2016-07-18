@@ -3707,4 +3707,4 @@
     };
 
     loadChat(basicBot.startup);
-}).call(this);
+}).call(this); 
