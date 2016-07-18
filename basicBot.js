@@ -3599,7 +3599,7 @@
                 }
             },
 
-            websiteCommand: {
+            twitterCommand: {
                 command: 'twitter',
                 rank: 'user',
                 type: 'exact',
@@ -3607,8 +3607,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.website === "string")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
+                        if (typeof basicBot.settings.twitter === "string")
+                            API.sendChat(subChat(basicBot.chat.twitter, {link: basicBot.settings.twitter}));
                     }
                 }
             },
@@ -3704,8 +3704,36 @@
                 }
             }
         }
+    },
+bot.commands.helpCommand: {
+                command: 'help', 
+                rank: 'user', 
+                type: 'exact', 
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!bot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        return API.sendChat(subChat(basicBot.chat.help, {name: name}));
+                    }
+                }
+            }
+        }
+    },
+    
+            bot.commands.themeCommand: {
+                command: 'theme', 
+                rank: 'user', 
+                type: 'exact', 
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!bot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        return API.sendChat(subChat(basicBot.chat.theme, {name: name}));
+                    }
+                }
+            }
+        }
     };
 
     loadChat(basicBot.startup);
 }).call(this);
-
