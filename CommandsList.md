@@ -45,7 +45,6 @@ Manager
 |!logout | | logs out account bot is hosted on |
 |!refresh | | refreshes the browser of whoever runs the bot |
 |!usercmdcd | X | set the cooldown on commands by grey users |
-|!usercommands | | toggle user commands |
 |!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
 
 Bouncer+
