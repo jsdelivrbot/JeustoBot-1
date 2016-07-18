@@ -2329,8 +2329,8 @@
                 }
             },
 
-            helpCommand: {
-                command: 'help',
+            thCommand: {
+                command: 'thxd',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2338,7 +2338,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var link = "(Updated link coming soon)";
-                        API.sendChat(subChat(basicBot.chat.starterhelp, {link: link}));
+                        API.sendChat(subChat(basicBot.chat.starterth, {link: link}));
                     }
                 }
             },
@@ -3700,10 +3700,41 @@
                     else {
                         if (typeof basicBot.settings.youtubeLink === "string")
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
+                    }
+                }
             }
-          }
-        };
-
+        }
+    },
+    
+            bot.commands.thCommand = {
+                command: 'th', 
+                rank: 'user', 
+                type: 'exact', 
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!bot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            API.sendChat("This should get you started on plug.dj http://i.imgur.com/N1vgPKm.jpg?1");
+                    }
+                }
+            }
+        }
+    },
+    
+            bot.commands.themeCommand = {
+                command: 'theme', 
+                rank: 'user', 
+                type: 'exact', 
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!bot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            API.sendChat("We only allow EDM (Electronic music). What is EDM? Info: http://bit.ly/1HQo4wv");
+                    }
+                }
+            }
+        }
+    };
 
     loadChat(basicBot.startup);
 }).call(this);
