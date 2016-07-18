@@ -74,7 +74,7 @@
       timeGuard: true,
       maximumSongLength: 6,
       autodisable: true,
-      commandCooldown: 5,
+      commandCooldown: 3,
       usercommandsEnabled: true,
       skipPosition: 2,
       skipReasons: [
@@ -89,7 +89,7 @@
       afkpositionCheck: 20,
       afkRankCheck: "bouncer",
       motdEnabled: true,
-      motdInterval: 35,
+      motdInterval: 10,
       motd: "Don't forget to share this community with your friends on social networks. The more we are, the more we have fun !",
       filterChat: true,
       etaRestriction: false,
