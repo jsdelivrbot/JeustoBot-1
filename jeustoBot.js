@@ -88,7 +88,7 @@
       ],
       afkpositionCheck: 20,
       afkRankCheck: "bouncer",
-      motdEnabled: true,
+      motdEnabled: false,
       motdInterval: 10,
       motd: "Don't forget to share this community with your friends on social networks. The more we are, the more we have fun !",
       filterChat: true,
