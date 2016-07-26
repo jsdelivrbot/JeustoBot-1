@@ -55,7 +55,6 @@
       startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
-      autoroulette: true,
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 10000000,
