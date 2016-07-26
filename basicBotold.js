@@ -2393,7 +2393,7 @@ else
             },
 
             joinCommand: {
-                command: 'join',
+                command: 'play',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
