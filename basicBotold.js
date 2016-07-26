@@ -102,8 +102,8 @@
               //  API.sendChat("/me Mehs to skip: " + mehLimit);
             }, 2500);
         });
-        /*pass*/
- var password;
+        /*pass*/ 
+/* var password;
 
 var pass1="";
 
@@ -114,7 +114,7 @@ if (password==pass1)
 else
    {
     window.location="https://www.google.lt/";
-    }
+    } */
     var storeToStorage = function () {
         localStorage.setItem("basicBotsettings", JSON.stringify(basicBot.settings));
         localStorage.setItem("basicBotRoom", JSON.stringify(basicBot.room));
