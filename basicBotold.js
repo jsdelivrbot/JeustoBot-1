@@ -24,7 +24,87 @@
         }
         return -1;
     };
+     var autoroulette = false;
+        bot.commands.togglerouletteCommand = {
+            command : 'autoroulette',
+            rank : 'manager',
+            type : 'exact',
+            functionality : function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length)
+                    return;
+                if (!bot.commands.executable(this.rank, chat))
+                    return;
+                else {
+                    autoroulette = !autoroulette;
+                    API.sendChat("/me Autoruletė > " + autoroulette);
+                }
+            }
+        };
+        var time = 90; // Pusantros valandos defaultas
+        bot.commands.toggleautorouletteCommand = {
+            command : 'autoroulettetime', // pvž. !autoroulettetime 90
+            rank : 'manager',
+            type : 'startsWith',
+            functionality : function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length)
+                    return;
+                if (!bot.commands.executable(this.rank, chat))
+                    return;
+                else {
+                    var msg = chat.message;
+                    var space = msg.indexOf(' ');
+                    var t = msg.substring(space + 1);
+                    time = parseInt(t);
+                    if (space == -1 || isNaN(time)) {
+                        API.sendChat("Blogai nurodytas laikas")
+                        return;
+                    }
+                    API.sendChat("/me Ruletė automatiškai prasidės už " + time + "minučių.");
+                }
+            }
+        };
 
+        setInterval(function () {
+            if (autoroulette == true) {
+                if (!bot.room.roulette.rouletteStatus)
+                    bot.room.roulette.startRoulette();
+                else
+                    return;
+            } else
+                return;
+        }, time * 90 * 1000);
+
+        bot.commands.stoprouletteCommand = {
+            command : 'stoproulette',
+            rank : 'manager',
+            type : 'exact',
+            functionality : function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length)
+                    return void(0);
+                if (!bot.commands.executable(this.rank, chat))
+                    return void(0);
+                else {
+                    API.sendChat("/me Ruletė sustabdyta!!");
+                    clearTimeout(bot.room.roulette.countdown);
+                    bot.room.roulette.rouletteStatus = false;
+                }
+            }
+        };
+
+        API.on(API.CHAT, function (data) {
+            if (data.uid == API.getUser().id) {
+                var msg = data.message;
+                if (msg.search("@undefined") > -1) {
+                    $.ajax({
+                        type : 'DELETE',
+                        url : '/_/chat/' + data.cid
+                    });
+                } else
+                    return;
+            } else
+                return;
+
+        });
     var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.afkInterval);
@@ -435,88 +515,7 @@ else
             },
             usersUsedThor: []
         },
-        /*Automatic roulette*/
-        var autoroulette = false;
-        bot.commands.togglerouletteCommand = {
-            command : 'autoroulette',
-            rank : 'manager',
-            type : 'exact',
-            functionality : function (chat, cmd) {
-                if (this.type === 'exact' && chat.message.length !== cmd.length)
-                    return;
-                if (!bot.commands.executable(this.rank, chat))
-                    return;
-                else {
-                    autoroulette = !autoroulette;
-                    API.sendChat("/me Autoruletė > " + autoroulette);
-                }
-            }
-        };
-        var time = 90; // Pusantros valandos defaultas
-        bot.commands.toggleautorouletteCommand = {
-            command : 'autoroulettetime', // pvž. !autoroulettetime 90
-            rank : 'manager',
-            type : 'startsWith',
-            functionality : function (chat, cmd) {
-                if (this.type === 'exact' && chat.message.length !== cmd.length)
-                    return;
-                if (!bot.commands.executable(this.rank, chat))
-                    return;
-                else {
-                    var msg = chat.message;
-                    var space = msg.indexOf(' ');
-                    var t = msg.substring(space + 1);
-                    time = parseInt(t);
-                    if (space == -1 || isNaN(time)) {
-                        API.sendChat("Blogai nurodytas laikas")
-                        return;
-                    }
-                    API.sendChat("/me Ruletė automatiškai prasidės už " + time + "minučių.");
-                }
-            }
-        };
-
-        setInterval(function () {
-            if (autoroulette == true) {
-                if (!bot.room.roulette.rouletteStatus)
-                    bot.room.roulette.startRoulette();
-                else
-                    return;
-            } else
-                return;
-        }, time * 90 * 1000);
-
-        bot.commands.stoprouletteCommand = {
-            command : 'stoproulette',
-            rank : 'manager',
-            type : 'exact',
-            functionality : function (chat, cmd) {
-                if (this.type === 'exact' && chat.message.length !== cmd.length)
-                    return void(0);
-                if (!bot.commands.executable(this.rank, chat))
-                    return void(0);
-                else {
-                    API.sendChat("/me Ruletė sustabdyta!!");
-                    clearTimeout(bot.room.roulette.countdown);
-                    bot.room.roulette.rouletteStatus = false;
-                }
-            }
-        };
-
-        API.on(API.CHAT, function (data) {
-            if (data.uid == API.getUser().id) {
-                var msg = data.message;
-                if (msg.search("@undefined") > -1) {
-                    $.ajax({
-                        type : 'DELETE',
-                        url : '/_/chat/' + data.cid
-                    });
-                } else
-                    return;
-            } else
-                return;
-
-        });
+        
         User: function (id, name) {
             this.id = id;
             this.username = name;
