@@ -325,6 +325,7 @@ else
             commandCooldown: 60,
             usercommandsEnabled: true,
             thorCommand: false,
+            autoroulette: true,
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
