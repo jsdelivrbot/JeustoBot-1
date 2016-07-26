@@ -108,9 +108,9 @@
       songstats: false,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-       BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/PowerOfMad/Ul-Bot/master/blacklists/NSFW.json",
+        OP: "https://rawgit.com/PowerOfMad/Ul-Bot/master/blacklists/OP.json",
+       BANNED: "https://rawgit.com/PowerOfMad/Ul-Bot/master/blacklists/BANNED.json"
      }
     }));
 
