@@ -3026,22 +3026,7 @@ else
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (basicBot.room.skippable) {
-
-                            var timeLeft = API.getTimeRemaining();
-                            var timeElapsed = API.getTimeElapsed();
-                            var dj = API.getDJ();
-                            var name = dj.username;
-                            var msgSend = '@' + name + ', ';
-
-                            if (chat.message.length === cmd.length) {
-                                API.sendChat(subChat(basicBot.chat.usedskip, {name: chat.un}));
-                                if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
-                                    basicBot.roomUtilities.smartSkip();
-                                }
-                                else {
-                                    API.moderateForceSkip();
-                                }
-                            }
+                            
                             var validReason = false;
                             var msg = chat.message;
                             var reason = msg.substring(cmd.length + 1);
