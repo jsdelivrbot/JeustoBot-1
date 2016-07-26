@@ -103,7 +103,7 @@
       themeLink: null,
       fbLink: "https://www.facebook.com/Už-Lietuvą-630256890371211",
       twitter: null,
-      intervalMessages: [],
+      intervalMessages: ["!roulette", "@djs rulete paleista, norėdami dalyvauti rašykite !play."],
       messageInterval: 5,
       songstats: false,
       commandLiteral: "!",
