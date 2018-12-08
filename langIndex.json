@@ -1,15 +1,15 @@
 {
-    "czech": "https://rawgit.com/basicBot/source/master/lang/cs.json",
-    "german": "https://rawgit.com/basicBot/source/master/lang/de.json",
+    "czech": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/cs.json",
+    "german": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/de.json",
     "english": "https://rawgit.com/Jeusto/JeustoBot/master/en.json",
     "spanish": "https://rawgit.com/basicBot/source/master/lang/es-ES.json",
-    "french": "https://rawgit.com/basicBot/source/master/lang/fr.json",
+    "french": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/fr.json",
     "latvian": "https://rawgit.com/basicBot/source/master/lang/lv-LV.json",
-    "malay": "https://rawgit.com/basicBot/source/master/lang/ms.json",
-    "dutch": "https://rawgit.com/basicBot/source/master/lang/nl.json",
-    "polish": "https://rawgit.com/basicBot/source/master/lang/pl.json",
-    "portuguese": "https://rawgit.com/basicBot/source/master/lang/pt-BR.json",
-    "serbian": "https://rawgit.com/basicBot/source/master/lang/sr.json",
-    "turkish": "https://rawgit.com/basicBot/source/master/lang/tr.json",
-    "chinese": "https://rawgit.com/basicBot/source/master/lang/zh-TW.json"
+    "malay": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/ms.json",
+    "dutch": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/nl.json",
+    "polish": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/pl.json",
+    "portuguese": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/pt-BR.json",
+    "serbian": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/sr.json",
+    "turkish": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/tr.json",
+    "chinese": "https://cdn.jsdelivr.net/gh/basicBot/source/lang/zh-TW.json"
 }
